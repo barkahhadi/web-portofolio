@@ -5,10 +5,11 @@
  */
 
 const metadata = {
-  APP_NAME: "NextJS Boilerplate with antd",
+  APP_NAME: "Barkah H | Software Engineer | Fullstack Developer",
   APP_DESCRIPTION:
-    "NextJS Boilerplate is a boilerplate for NextJS with antd and Redux",
-  KEYWORDS: "nextjs, antd, redux, boilerplate",
+    "Hi, I'm Barkah. I'm a software engineer and fullstack developer.",
+  KEYWORDS:
+    "Barkah Hadi, Barkah, Hadi, Software Engineer, Fullstack Developer, Javascript Developer, React Developer, Node.js Developer, Express.js Developer, MongoDB Developer, SQL Developer, Web Developer, Frontend Developer, Backend Developer, Flutter Developer",
 };
 
 export default metadata;
