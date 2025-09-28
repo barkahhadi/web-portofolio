@@ -18,6 +18,55 @@ export interface Projects {
 
 const projects: Projects[] = [
     {
+        title: 'Portal Data Pendidikan',
+        description:
+            'Portal Data Kemendikdasmen is the official online data center containing information and statistics about education in Indonesia, managed by the Ministry of Primary and Secondary Education (Kemdikdasmen). This portal provides various types of data, such as datasets on Early Childhood (PAUD), primary, secondary, teachers, educational staff, vocational education, as well as the results of the National Assessment and the Education Report.',
+        tools: ['Golang', 'PostgreSQL', 'BigQuery'],
+        image: '/images/projects/portal-data-pendidikan.png',
+        responsibilities: [
+            'Developed the backend services using Golang',
+            'Implemented the AI semantic search using Gemini',
+            'Documenting the API',
+        ],
+        link: [
+            {
+                type: 'web',
+                url: 'https://data.kemendikdasmen.go.id/',
+            },
+        ],
+        date: 'January 2025',
+        isRecent: true,
+    },
+    {
+        title: 'Rumah Pendidikan',
+        description:
+            'Rumah Pendidikan (House of Education Platform) is an integrated digital platform from the Ministry of Primary and Secondary Education (Kemendikdasmen) in Indonesia that unites various educational services and applications into a single container. Its objective is to facilitate collaboration among all educational stakeholders (including students, teachers, parents, government, and partners) to improve the quality of education through a more digital and efficient system.',
+        tools: ['Flutter', 'NodeJS', 'NestJS', 'PostgreSQL'],
+        image: '/images/projects/rumah-pendidikan.png',
+        responsibilities: [
+            'Developed the backend services',
+            'Developed mobile apps using flutter',
+            'Converted the figma design to flutter UI',
+            'Documenting the API',
+        ],
+        link: [
+            {
+                type: 'web',
+                url: 'https://rumah.pendidikan.go.id/',
+            },
+            {
+                type: 'android',
+                url: 'https://play.google.com/store/apps/details?id=com.kemendikdasmen.rumahpendidikan',
+            },
+            {
+                type: 'ios',
+                url: 'https://apps.apple.com/id/app/rumah-pendidikan/id6741482400',
+            },
+        ],
+        date: 'October 2024',
+        isRecent: true,
+    },
+    {
         title: 'JAKI - Jakarta Kini',
         description:
             'JAKI is a one-stop digital platform that integrates various public services and accelerates digital transformations. It is developed with citizen-design services and customer centricity, personalised services, and provides an open data ecosystem aiming to co-create with stakeholders',
@@ -67,6 +116,26 @@ const projects: Projects[] = [
         isRecent: true,
     },
     {
+        title: 'E-Procurement Admedika',
+        description: `E-Procurement app is digital system that manages the entire Procure-to-Pay (P2P) process, from buying a product to paying the bill. It helps the Procurement and Finance teams work together smoothly by replacing manual forms with a clear, automated workflow. The app handles the initial Purchase Request (PR), creates the official Purchase Order (PO), and confirms goods are received with a Received Order (RO). When all steps are verified, it will sends a Payment Request to Finance to start the final Payment Process Management. Every transaction is tracked on the Centralized Dashboard, helping us process payments faster, follow all spending rules easily, and keep our financial records accurate.`,
+        tools: ['NodeJS', 'NextJS', 'NestJS'],
+        image: '/images/projects/admedika.png',
+        responsibilities: [
+            'Develop website using NextJS',
+            'Develop backend services using NodeJS',
+            'Designed a bussiness logic for the website',
+            'Designed a database schema for the website',
+        ],
+        link: [
+            {
+                type: 'web',
+                url: 'https://dev-admed.ngerikap.com',
+            },
+        ],
+        date: 'January 2023',
+        isRecent: true,
+    },
+    {
         title: 'JDIH Kemkominfo',
         description: `JDIH (Jaringan Dokumentasi dan Informasi Hukum) Kemenkominfo
       (Ministry of Communication and Informatics) is a comprehensive
@@ -87,7 +156,7 @@ const projects: Projects[] = [
         link: [
             {
                 type: 'web',
-                url: 'https://jdih.kominfo.go.id/',
+                url: 'https://jdih.komdigi.go.id/',
             },
             {
                 type: 'android',
@@ -99,7 +168,7 @@ const projects: Projects[] = [
             },
         ],
         date: 'February 2023',
-        isRecent: true,
+        isRecent: false,
     },
     {
         title: 'AJK - Anugrah Jurnalistik Kominfo',
@@ -115,11 +184,11 @@ const projects: Projects[] = [
         link: [
             {
                 type: 'web',
-                url: 'https://ajk.kominfo.go.id/',
+                url: 'https://ajk.komdigi.go.id/',
             },
         ],
         date: 'August 2023',
-        isRecent: true,
+        isRecent: false,
     },
     {
         title: 'SIKAP - Sistem Informasi Advokasi dan Pertimbangan Hukum',
@@ -135,7 +204,7 @@ const projects: Projects[] = [
         link: [
             {
                 type: 'web',
-                url: 'https://sikap.kominfo.go.id/',
+                url: 'https://sikap.komdigi.go.id/',
             },
         ],
         date: 'March 2022',
@@ -169,7 +238,7 @@ const projects: Projects[] = [
         ],
         link: null,
         date: 'March 2022',
-        isRecent: true,
+        isRecent: false,
     },
     {
         title: 'JAKEVO',
@@ -278,7 +347,6 @@ const projects: Projects[] = [
         date: 'June 2015',
         isRecent: false,
     },
-
     {
         title: 'Travel Management & Scheduling System for Inspira Tour',
         description: `The Travel Management & Scheduling System by Inspira Tour is an innovative application designed to streamline and enhance the travel management process for both travelers and tour operators. This comprehensive platform offers a range of features aimed at providing a seamless and enjoyable travel experience.`,
@@ -297,25 +365,6 @@ const projects: Projects[] = [
                 url: 'http://icrm.inspiratour.co.id',
             },
         ],
-        isRecent: false,
-    },
-    {
-        title: 'Company Profile Website for PT. Jaya Metal Teknika',
-        description: `PT. Jaya Metal Teknika, a leading industrial machinery and equipment trading company. The company sources high-quality machinery and equipment from renowned manufacturers in Japan, Germany, Switzerland, Australia, and Taiwan.`,
-        tools: ['Wordpres', 'MySQL'],
-        image: '/images/projects/jmt.png',
-        responsibilities: [
-            'Developed the frontend using Wordpress',
-            'Design a layout for the website',
-            'Ensuring the website is responsive',
-        ],
-        link: [
-            {
-                type: 'web',
-                url: 'https://jayametal.co.id',
-            },
-        ],
-        date: 'August 2014',
         isRecent: false,
     },
 ]

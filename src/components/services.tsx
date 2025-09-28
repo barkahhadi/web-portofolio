@@ -33,7 +33,6 @@ const Services: React.FC = () => {
               "Expo",
               "Android Studio",
               "Xcode",
-              "Android & iOS Emulators",
             ]}
           ></CardService>
         </Col>
@@ -64,6 +63,7 @@ const Services: React.FC = () => {
             title="Back-End Development"
             description="Backend Development is a crucial part of a application. I always make sure that the backend is secure, fast, scalable and easy to maintain."
             tools={[
+              "Golang",
               "NodeJS",
               "NestJS",
               "PHP Laravel",

@@ -5,6 +5,8 @@ import { css } from "@emotion/css";
 const { Header } = Layout;
 
 const MainHeader: React.FC = () => {
+  const totalExperience = new Date().getFullYear() - 2011;
+
   return (
     <Header
       className="header"
@@ -107,7 +109,7 @@ const MainHeader: React.FC = () => {
                   }
                 `}
               >
-                I'm an Indonesian Web and Mobile App Developer with 12 years of
+                I'm an Indonesian Web and Mobile App Developer with {totalExperience} years of
                 experience. Dedicated to delivering simple, high-quality and
                 efficient products.
               </p>
